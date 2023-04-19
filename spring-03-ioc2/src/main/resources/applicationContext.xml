@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--项目中有多个人开发，每个人负责不同的类，不同的类注册在不同的bean.xml中，我们可以利用import将所有人的bean.xml合并为一个总的-->
+    <import resource="beans.xml"/>
+</beans>
